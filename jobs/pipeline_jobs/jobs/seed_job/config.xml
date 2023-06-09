@@ -33,7 +33,7 @@
     <configVersion>2</configVersion>
     <userRemoteConfigs>
       <hudson.plugins.git.UserRemoteConfig>
-        <url>git@github.com:heangratha/jenkins-seedjob-templates.git</url>
+        <url>https://github.com/heangratha/jenkins-seedjob-templates.git</url>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
     <branches>
@@ -46,7 +46,8 @@
     <extensions/>
   </scm>
   <quietPeriod>0</quietPeriod>
-  <canRoam>true</canRoam>
+  <assignedNode>built-in</assignedNode>
+  <canRoam>false</canRoam>
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
